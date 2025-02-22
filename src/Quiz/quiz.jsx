@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { openDB } from "idb";
-import "./Quiz.css";
+import "./quiz.css";
 
 const mcqQuestions = [
     { id: 1, question: "Which planet is closest to the Sun?", options: ["A) Venus", "B) Mercury", "C) Earth", "D) Mars"], answer: "B) Mercury" },
