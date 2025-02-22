@@ -1,8 +1,43 @@
-# React + Vite
+ Interactive Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎯 Project Overview
 
-Currently, two official plugins are available:
+The Interactive Quiz App is a dynamic quiz application that presents multiple-choice and integer-type questions in rounds. It tracks the user's score, displays a result summary, and saves quiz history using IndexedDB.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features: -
+
+• 🧠 Multiple-Choice Questions (MCQs) Round
+
+• 🔢 Integer-Type Questions Round
+
+• ⏳ Countdown Timer (30 seconds per question)
+
+• ✅ Immediate Feedback (Correct/Incorrect)
+ 
+• 📊 Score Tracking & Final Scorecard
+
+• 💾 Quiz History Storage using IndexedDB
+
+• 📜 Attempt History Display
+
+Tech Stack
+
+• Frontend: React.js
+
+• Styling: CSS
+
+• Data Storage: IndexedDB (idb library)
+
+📦 Installation & Setup
+
+1.Clone the Repository: -
+  git clone https://github.com/your-username/interactive-quiz-app.git
+  cd interactive-quiz-app
+
+2.Install Dependencies
+npm install
+
+3. Start the Application
+npm start
+
+
