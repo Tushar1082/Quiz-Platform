@@ -1,0 +1,152 @@
+/* Quiz.css */
+#mainQuiz{
+    display: flex;
+    align-items: center;
+}
+.quiz-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    flex-basis: 35rem;
+}
+.quiz-logo div:nth-child(1){
+    width: 70%;
+    overflow: hidden;
+    border-radius: 20%;
+}
+.quiz-logo div:nth-child(1) img{
+    width: 100%;
+}
+.quiz-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin-right: 20rem;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.question-box {
+    padding: 20px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 20px;
+    color: #222;
+}
+
+.timer {
+    font-size: 16px;
+    color: #d9534f;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.option-button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.option-button:hover {
+    background: #0056b3;
+}
+
+.option-button.selected {
+    background: #28a745;
+    transform: scale(1.05);
+}
+
+input[type="number"] {
+    padding: 8px;
+    font-size: 18px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    text-align: center;
+    width: 80%;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+    background: #28a745;
+    color: white;
+    padding: 8px 30px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background: #218838;
+}
+
+.feedback {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.next-button, .restart-button {
+    background: #ffc107;
+    color: black;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.next-button:hover {
+    background: #e0a800;
+}
+.restart-button {
+    background: #28a745;
+    color: white;
+}
+
+.score-card {
+    padding: 30px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.score {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-Quiz{
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+}

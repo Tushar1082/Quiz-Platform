@@ -1,0 +1,10 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainApp{
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    height: 110vh;
+    padding: 10px;
+}
